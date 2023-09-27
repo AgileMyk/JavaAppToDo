@@ -1,5 +1,7 @@
 public abstract class Event {
 
+
+
     private String name;
     private Date date;
     private String type;
@@ -8,4 +10,6 @@ public abstract class Event {
         this.name = name;
         this.type = type;
     }
+
 }
+
